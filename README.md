@@ -14,9 +14,7 @@ Check out [FRONTEND LIVE DEMO](https://frontend-bikesway-israel.herokuapp.com/) 
 
 Check out [API LIVE DEMO](https://backend-bikesway-israel.herokuapp.com/) here!!
 
-![Capture](https://user-images.githubusercontent.com/87539893/151256381-856624e1-ddfa-4c49-85c7-0ed532d6c0f1.PNG)
 
-![Capture2](https://user-images.githubusercontent.com/87539893/151256417-071f3d8c-f1cf-406f-b42d-3c931eb04be4.PNG)
 
 
 ## Tech used

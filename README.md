@@ -10,9 +10,9 @@ Customers can login and order their favourite tea from the app
 
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 
-Check out [FRONTEND LIVE DEMO]() here!!
+Check out [FRONTEND LIVE DEMO](https://frontend-bikesway-israel.herokuapp.com/) here!!
 
-Check out [API LIVE DEMO]() here!!
+Check out [API LIVE DEMO](https://backend-bikesway-israel.herokuapp.com/) here!!
 
 ![Capture](https://user-images.githubusercontent.com/87539893/151256381-856624e1-ddfa-4c49-85c7-0ed532d6c0f1.PNG)
 

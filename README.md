@@ -10,9 +10,9 @@ Customers can login and order their favourite tea from the app
 
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 
-Check out [FRONTEND LIVE DEMO](https://frontend-kyle.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO]() here!!
 
-Check out [API LIVE DEMO](https://backend-kyle.herokuapp.com/) here!!
+Check out [API LIVE DEMO]() here!!
 
 ![Capture](https://user-images.githubusercontent.com/87539893/151256381-856624e1-ddfa-4c49-85c7-0ed532d6c0f1.PNG)
 
@@ -31,7 +31,7 @@ Check out [API LIVE DEMO](https://backend-kyle.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-https://github.com/samsaddam/Lemonade.git
+https://github.com/israelbustos/bikesway.git
 
 ```
 

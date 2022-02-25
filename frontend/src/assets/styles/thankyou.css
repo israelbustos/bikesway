@@ -1,0 +1,68 @@
+body {
+  background-color: #fff;
+}
+.nav {
+  background-color: #48597b;
+  width: 100%;
+  color: white;
+  border: #707070;
+}
+.nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .navbar h3 {
+  font-family: "Krungthep";
+  color: white;
+  font-size: 30px;
+  margin-left: 1%;
+}
+
+.nav .navbar .signin {
+  display: flex;
+  align-items: center;
+}
+.nav .navbar .signin h4 {
+  padding: 0 15px;
+  font-family: "Roboto";
+  font-weight: lighter;
+}
+.signin img {
+  height: 35px;
+}
+
+.heading {
+  width: 100%;
+  background-color: #8e91b2;
+  text-align: center;
+}
+.heading h4 {
+  color: white;
+  font-size: 30px;
+  padding: 4%;
+}
+
+.note p {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  margin: 6%;
+}
+
+.note a {
+  text-decoration: none;
+}
+
+.btn3 {
+  border-color: #48597b;
+  background-color: #48597b;
+  color: white;
+  position: relative;
+  border-radius: 0.25rem;
+  height: 40px;
+  left: 44%;
+  cursor: pointer;
+  border: 0;
+}

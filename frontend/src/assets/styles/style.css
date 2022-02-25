@@ -1,0 +1,465 @@
+/* *********************
+Common
+************************* */
+* {
+  margin: 0;
+}
+html {
+  font-family: "Raleway";
+}
+body {
+  background-color: #48597b;
+}
+
+/* *********************
+Header
+************************* */
+.nav {
+  background-color: #48597b;
+  width: 100%;
+  color: white;
+  border: #707070;
+}
+.nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+a.bikesway {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav .navbar h3 {
+  font-family: "Krungthep";
+  color: white;
+  font-size: 30px;
+  margin-left: 1%;
+}
+
+.nav .navbar .signin {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.nav .navbar .signin h4 {
+  padding: 0 15px;
+  font-family: "Roboto";
+  font-weight: lighter;
+}
+.signin img {
+  height: 35px;
+}
+
+.sign {
+  text-decoration: none;
+  color: white;
+}
+
+.bg{
+  background-color: #48597b;
+}
+
+.bg img {
+  width: 100%;
+  
+}
+.logout {
+  padding-right: 17px;
+  cursor: pointer;
+}
+/**********************
+Home Page
+**************************/
+
+.main {
+  background-color: #48597b;
+}
+li {
+  list-style: none;
+}
+.row {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.row img {
+  width: 25%;
+}
+.row .info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name {
+  font-size: 23px;
+  margin-left: 2%;
+  color: white;
+}
+.add {
+  display: flex;
+  justify-content: space-between;
+}
+.prize {
+  font-size: 20px;
+  margin-left: 2%;
+  color: white;
+}
+.btn {
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 5px 15px;
+  color: black;
+  background-color: white;
+  margin-right: 10%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.number {
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 4px 17px;
+  color: black;
+  background-color: white;
+  margin-right: 10%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/****************
+  Shipment
+  ********************/
+
+.heading {
+  width: 100%;
+  background-color: #8e91b2;
+  text-align: center;
+}
+.heading h4 {
+  color: white;
+  font-size: 30px;
+  padding: 4%;
+}
+.formcolor{
+  background-color: white !important;
+  bottom: 0;
+}
+.form {
+  
+  font-family: "Roboto", sans-serif;
+  margin-left: 20%;
+}
+.form .total h3{
+  padding-top: 20px;
+}
+.order table {
+  margin: 0;
+  width: 100%;
+  color: #313636;
+  border-collapse: collapse;
+}
+.order tr {
+  height: 2rem;
+}
+
+.order .item-name {
+  width: 60%;
+}
+.order .quantity {
+  width: 0%;
+  position: relative;
+}
+.order .item-price {
+  width: 1%;
+  position: relative;
+  right: 17%;
+}
+.finalprice {
+  font-weight: bold;
+}
+.item-name1 {
+  border-top: 1px solid #48597b;
+  width: 60%;
+}
+
+.quantity1 {
+  width: 0%;
+  position: relative;
+/*   right: 36%; */
+  border-top: 1px solid #48597b;
+}
+
+.form input {
+  width: 45%;
+  background-color: #8e91b2;
+  padding: 5px;
+  border: 0;
+}
+::placeholder {
+  color: white;
+}
+
+.form button {
+  margin-top: 2%;
+  background-color: #48597b;
+  border-radius: 5%;
+  color: white;
+  border: 0;
+  padding: 11px;
+  border-radius: 9px;
+}
+/* ***************
+  Thankyou page
+  ******************* */
+.note p {
+  position: relative;
+  text-align: center;
+  /* left: 26%; */
+  font-size: 24px;
+  margin-top: 6%;
+}
+.note a {
+  text-decoration: none;
+}
+.btn3 {
+  border-color: #48597b;
+  background-color: #48597b;
+  color: white;
+  position: relative;
+  border-radius: 0.25rem;
+  height: 40px;
+  left: 44%;
+  cursor: pointer;
+  border: 0;
+}
+.color{
+  color: #48597b;
+  font-weight: bold;
+}
+
+/* ***************
+  Footer
+  ******************* */
+footer {
+  font-family: "Roboto", sans-serif;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0px;
+  background-color: #48597b;
+  border-top: 1px solid #939393;
+}
+
+footer .subtotal {
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+footer button {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+  border: 0;
+  padding: 8px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* ***************************************
+
+Signin and Signup
+
+************************************* */
+
+.popup {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.popup .popup-inner {
+  background-color: #48597b;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  left: 35vw;
+  top: 15%;
+  width: 30%;
+  /* height: 45%; */
+}
+.popup .popup-inner img {
+  height: 10%;
+  position: absolute;
+  left: 85%;
+  justify-content: space-between;
+}
+.popup .popup-inner h1 {
+  font-family: "Krungthep";
+  font-weight: bold;
+  top: 7%;
+  position: relative;
+  color: white;
+}
+.popup .popup-inner h2 {
+  color: white;
+  top: 6%;
+  position: relative;
+}
+.popup .popup-input {
+  top: 6%;
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+.popup input {
+  width: 70%;
+  height: 4vh;
+  background-color: white;
+  border: 1;
+  border: 1px solid black;
+}
+.popup-input ::placeholder {
+  color: #bfbfbf;
+}
+.popup .popup-input button {
+  width: 73%;
+  height: 5vh;
+  background-color: white;
+  font-size: larger;
+  border: 0;
+  color: black;
+}
+.popup-input p {
+  color: white;
+}
+.popup-input p a {
+  color: white;
+}
+
+/* ********************************************************************************* */
+@media (max-width: 1024px) {
+  .popup .popup-inner {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    left: 23vw;
+    top: 15%;
+    width: 50%;
+  }
+}
+/* ************************************************************ */
+@media (max-width: 800px) {
+  .popup .popup-inner {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    left: 23vw;
+    top: 15%;
+    width: 50%;
+  }
+
+  .btn1 {
+    right: 50%;
+  }
+}
+/* ************************************************************ */
+@media (max-width: 600px) {
+  .btn1 {
+    left: 0%;
+  }
+  .note p {
+    font-size: 20px;
+  }
+  .btn3 {
+    left: 40%;
+  }
+}
+/* ************************************************************* */
+@media (max-width: 500px) {
+  .nav .navbar h3 {
+    font-size: 20px;
+  }
+  .signin img {
+    height: 25px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+  .prize {
+    font-size: 15px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .number{
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 0;
+  }
+  footer .subtotal {
+    font-size: 15px;
+  }
+  footer button {
+    font-size: 12px;
+
+    height: 2rem;
+    margin-top: 2%;
+  }
+
+  .popup .popup-inner {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    left: 12vw;
+    top: 10%;
+    width: 76%;
+    height: 60%;
+  }
+  .form {
+    margin-left: 5%;
+    font-size: 15px;
+  }
+  .form .order1 h4 {
+    left: 55%;
+  }
+  .form input {
+    width: 80%;
+  }
+
+  h3 h4 {
+    font-size: 15px;
+  }
+
+  .btn1 {
+    left: 3%;
+  }
+  .heading h4 {
+    font-size: 25px;
+  }
+  .note p {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .btn2 {
+    left: 30%;
+  }
+  .btn3 {
+    left: 34%;
+  }
+}
+/* ***********************************************************************/
